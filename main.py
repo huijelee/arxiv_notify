@@ -91,7 +91,8 @@ def main(hparams):
             body += f"Authors: {', '.join(author.name for author in paper.authors)}\n"
             body += f"Published: {paper.published}\n"
             body += f"URL: {paper.entry_id}\n\n"
-        
+
+        print(body)
         send_email(f"arXiv Daily Update: {hparams.query} Papers", body)
         print("Email sent with new papers.")
     else:
