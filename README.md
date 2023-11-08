@@ -1,6 +1,7 @@
 # Environment
 ```
 git clone https://github.com/huijelee/arxiv_notify.git
+cd arxiv_notify
 conda create -n arxiv python=3.10
 conda activate arxiv
 pip install -r requirements.txt
