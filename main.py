@@ -101,7 +101,7 @@ def main(hparams):
 if __name__ == '__main__':
     parser = ArgumentParser(add_help=False)
     parser.add_argument("--query", default="sign language", type=str)
-    parser.add_argument("--num_papar", default=10, type=int)
+    parser.add_argument("--num_paper", default=10, type=int)
     
     hparams = parser.parse_args()
     main(hparams)
